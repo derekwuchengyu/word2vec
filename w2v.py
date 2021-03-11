@@ -265,3 +265,37 @@ class EpochLogger(CallbackAny2Vec):
                     
         self.timerecord("時間:")  
         self.epochs += 1
+
+        
+        
+        
+#宣告物件   
+
+
+#obj=ClassGenerateTrain("/home/jupyer/derek/591")
+
+#產生訓練txt
+#sys.path.append('/home/jupyer/derek/591/')
+#from data.config import city
+#settings={}
+#settings['city'] = city
+#x = datetime.datetime.now()
+#fileName='591Behavior_'+x.strftime("%Y%m%d")+'.txt'
+#csvFileName='591Behavior_'+x.strftime("%Y%m%d")+'.csv'
+#obj.generateTxt(pretrain_collection,fileName,otherInfo=settings)
+
+##訓練模型
+#gensim_config = {
+#     'window_size': 5,    # context window +- center word
+#     'size': 32,            # dimensions of word embeddings, also refer to size of hidden layer
+#     'epochs': 20,       # number of training epochs
+#     'learning_rate': 0.01,   # learning rate
+#     'glb_mtpl': 0.05,   # 主動應徵learning rate 倍數(加權)
+#     'neg_mtpl': 3,   # 負採樣learning rate 倍數(加權)
+#     'local_negative': 5, #local負採樣數
+#     'local_neg_min': 1000 #local負採樣 group數量門檻    
+#}
+#
+#model = obj.train_model('basic',fileName,gensim_config)
+#儲存模型
+#obj.save_model(model,'demo.model')
