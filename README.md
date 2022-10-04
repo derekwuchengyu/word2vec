@@ -1,4 +1,5 @@
-# Word2vec implementation 手刻 Word2vec模型
+# Word2vec implementation 
+# 手刻 Word2vec模型
 原論文 《Efficient Estimation of Word Representations in Vector Space》 https://arxiv.org/abs/1301.3781
 
 ## Word2vec自然語言模型
