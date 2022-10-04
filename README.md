@@ -16,7 +16,7 @@ Word2vec 實作上有很多細節包括:負採樣、負採樣映射表等，</br
 
 </br>
 </br>
-參考文章: 
+參考文章: </br>
 《word2vec中的数学原理详解》</br>
 https://blog.csdn.net/itplus/article/details/37969519
 
