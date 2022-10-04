@@ -1,8 +1,8 @@
-# Word2vec
-手刻 Word2vec
+# Word2vec Implement
+手刻 Word2vec 模型
 原論文 《Efficient Estimation of Word Representations in Vector Space》 https://arxiv.org/abs/1301.3781
-<h2>Word2vec</h2>
-自然語言模型，可以將單詞轉成數學向量(vector)，或是想像成一個座標，並保留其詞與詞的關係。舉例來說，經過文章訓練後，"國王"之於"皇后"在空間中的距離，跟"王子"之於"公主"兩的距離一樣。
+## Word2vec自然語言模型
+可將單詞轉成數學向量(vector)，或是想像成一個座標，並保留其詞與詞的關係。舉例來說，經過文章訓練後，"國王"之於"皇后"在空間中的距離，跟"王子"之於"公主"兩的距離一樣。
 
 word2vec模型分為CWOB 和 Skip-gram 兩部分。
 CWOB可以想像成將一個句子的某個單字挖空，透過前後文推測挖空的單詞。Ex. "失敗為__之母" __ = 成功機率最高
