@@ -1,6 +1,6 @@
-# Word2vec Implement
-手刻 Word2vec 模型
+# Word2vec implementation 手刻 Word2vec模型
 原論文 《Efficient Estimation of Word Representations in Vector Space》 https://arxiv.org/abs/1301.3781
+
 ## Word2vec自然語言模型
 可將單詞轉成數學向量(vector)，或是想像成一個座標，並保留其詞與詞的關係。舉例來說，經過文章訓練後，"國王"之於"皇后"在空間中的距離，跟"王子"之於"公主"兩的距離一樣。
 
